@@ -19,11 +19,12 @@ git init [nome-do-projeto]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Esse comando adiciona o git a uma pasta, transformando ele em um repositório git.
+em um repositório git existe a pasta oculta .git que controla as versões.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Usar sempre que quiser criar / adicionar o git a uma pasta.
 
 ---
 
@@ -35,18 +36,18 @@ git clone [url]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Clona um repositório remoto para a máquina local.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Sempre que quiser pegar um novo projeto do servidor para a máquina.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git init [nome-do-projeto]`
-- [ ] 2. `git clone [url]`
+- [ x ] 1. `git init [nome-do-projeto]`
+- [ x ] 2. `git clone [url]`
 
 ---
 
