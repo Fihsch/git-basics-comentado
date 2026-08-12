@@ -19,11 +19,11 @@ git status
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+O git staus nos mostra em qual branch estamos e como ela está em relação a branch remota.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Sempre antes de fazer uma operação git, para se certificar que estamos onde realmente precisamos e seguindo a branch remota corretamente.
 
 ---
 
@@ -35,11 +35,11 @@ git diff
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra as diferenças entre os arquivos locais e os arquivos inicialmente commitados na branch
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Sempre antes de commitar para revisar as própias alterações antes de mandar para o servidor
 
 ---
 
@@ -51,11 +51,12 @@ git add [arquivo]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Ele faz um "stage" dos aruivos.
+Os arquivos em "stage" são aqueles que serão commitados com o git commit
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Sempre antes dos commits para mandar os arquivos alterados
 
 ---
 
@@ -67,11 +68,11 @@ git diff --staged
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Mostra as diferenças entre os arquivos locais em "stage" e os arquivos inicialmente commitados na branch
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Sempre antes de commitar para revisar as própias alterações antes de mandar para o servidor
 
 ---
 
@@ -83,11 +84,11 @@ git reset [arquivo]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Serve para reverter as alterações locais não commitadas.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Deve ser utilizado sempre que queremos reverter uma alteração local
 
 ---
 
@@ -99,22 +100,24 @@ git commit -m "[mensagem descritiva]"
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Commita os arquivos que estão em stage.
+o -m "[mensagemdescritiva]" adiciona uma mensagem ao commit.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Sempre que queremos oficializar as nossas alterações locais
+é de extrema importancia colocar mensagens claras e padronizadas nos commits.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git status`
-- [ ] 2. `git diff`
-- [ ] 3. `git add [arquivo]`
-- [ ] 4. `git diff --staged`
-- [ ] 5. `git reset [arquivo]`
-- [ ] 6. `git commit -m "[mensagem descritiva]"`
+- [ x ] 1. `git status`
+- [ x ] 2. `git diff`
+- [ x ] 3. `git add [arquivo]`
+- [ x ] 4. `git diff --staged`
+- [ x ] 5. `git reset [arquivo]`
+- [ x ] 6. `git commit -m "[mensagem descritiva]"`
 
 ---
 
