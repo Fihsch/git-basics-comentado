@@ -17,11 +17,13 @@
 
 **Para que serve, e quando eu usaria:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+O github serve como um servidor ou base para armezenar um repositório (pasta com o git).
+Eu usaria sempre que tenho algum projeto, sozinho ou em conjunto, de programção, ou em qualquer projeto que o versionamento seja minimamente útil.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Usar sempre que estiver escrevendo código que queira que seja salvo, para armazená-lo em um local seguro.
+Observação: o github não é o único servidor de git, mas é um dos mais utilizados.
 
 ---
 
@@ -31,11 +33,13 @@
 
 **Para que serve, e quando eu usaria:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+O github serve como um servidor ou base para armezenar um repositório (pasta com o git).
+Eu usaria sempre que tenho algum projeto, sozinho ou em conjunto, de programção, ou em qualquer projeto que o versionamento seja minimamente útil.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Usar sempre que estiver escrevendo código que queira que seja salvo, para armazená-lo em um local seguro.
+Observação: o github não é o único servidor de git, mas é um dos mais utilizados.
 
 ---
 
@@ -45,11 +49,13 @@
 
 **Para que serve, e quando eu usaria:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+O github serve como um servidor ou base para armezenar um repositório (pasta com o git).
+Eu usaria sempre que tenho algum projeto, sozinho ou em conjunto, de programção, ou em qualquer projeto que o versionamento seja minimamente útil.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Usar sempre que estiver escrevendo código que queira que seja salvo, para armazená-lo em um local seguro.
+Observação: o github não é o único servidor de git, mas é um dos mais utilizados.
 
 ---
 
