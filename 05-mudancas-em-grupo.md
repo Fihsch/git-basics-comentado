@@ -4,7 +4,6 @@
 
 > Seção do [GitHub Git Cheat Sheet (pt-BR)](https://training.github.com/downloads/pt_BR/github-git-cheat-sheet/).
 
-
 [⬅ Faça mudanças](04-faca-mudancas.md) · [Índice](../README.md) · [Refatore nomes de arquivos ➡](06-refatore-nomes-de-arquivos.md)
 
 ---
@@ -19,11 +18,11 @@ git branch
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Lista todas as branches locais.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Mostra apenas as branches locais, não vai listar as remotas.
 
 ---
 
@@ -35,11 +34,11 @@ git branch [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Cria uma nova branch com o nome informado.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Sempre utilizar nomes padronizados e claros ao criar a branch.
 
 ---
 
@@ -51,11 +50,11 @@ git switch -c [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Troca para a branch informada
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Utilizar sempre que precisar ir para outro branch para fazer alterações.
 
 ---
 
@@ -67,11 +66,11 @@ git merge [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Faz um merge da branch informada na branch atual.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Sempre prestar atenção antes de usar o comando para ver em qual branch estamos.
 
 ---
 
@@ -83,21 +82,21 @@ git branch -d [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Deleta a branch informada.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+com o `d` minúsculo é uma remoção segura, com o `D` maiúsculo é uma remoção `forçada`.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git branch`
-- [ ] 2. `git branch [nome-do-branch]`
-- [ ] 3. `git switch -c [nome-do-branch]`
-- [ ] 4. `git merge [nome-do-branch]`
-- [ ] 5. `git branch -d [nome-do-branch]`
+- [ x ] 1. `git branch`
+- [ x ] 2. `git branch [nome-do-branch]`
+- [ x ] 3. `git switch -c [nome-do-branch]`
+- [ x ] 4. `git merge [nome-do-branch]`
+- [ x ] 5. `git branch -d [nome-do-branch]`
 
 ---
 
