@@ -19,11 +19,12 @@ git fetch [nome-remoto]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Baixa todo o histórico de um repositório remoto.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Utilizar sempre que precisamos consultar alterações feitas que ainda não estão na nossa máquina.
+Idealmente utilizar sempre antes de começar a trabalahar para manter o repositório local sincronizado.
 
 ---
 
@@ -35,11 +36,11 @@ git merge [nome-remoto]/[branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Faz o merge do branch remoto ao branch local atual.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Utilizar sempre que o branch remoto e o branch local não estão soncronizados para evitar conflitos.
 
 ---
 
@@ -51,11 +52,11 @@ git push [alias] [branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Envia todos os commits do branch local para o branch remoto.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+utilizar sempre após um commit para manter o branch remoto sincronizado.
 
 ---
 
@@ -67,20 +68,20 @@ git pull
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Baixa o histórico e incorpora as mudanças.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Parecido com o comando do fetch porém esse além de carregar as novas mudanças do branch remoto no histórico, também puxa as mudanças para os arquivos locais.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git fetch [nome-remoto]`
-- [ ] 2. `git merge [nome-remoto]/[branch]`
-- [ ] 3. `git push [alias] [branch]`
-- [ ] 4. `git pull`
+- [ x ] 1. `git fetch [nome-remoto]`
+- [ x ] 2. `git merge [nome-remoto]/[branch]`
+- [ x ] 3. `git push [alias] [branch]`
+- [ x ] 4. `git pull`
 
 ---
 
